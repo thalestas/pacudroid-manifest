@@ -45,8 +45,8 @@
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
   <project path="device/amlogic/yukawa-kernel" name="device/amlogic/yukawa-kernel" groups="device,yukawa,pdk" clone-depth="2" />
-  <project path="device/pacu/pacudroid" name="pacudroid" remote="pacu" revision="main" />
-  <project path="device/pacu/pacukernel" name="pacukernel" remote="pacu" revision="main" />
+  <project path="device/pacu/pacudroid" name="pacudroid" remote="pacu" revision="android-13.0.0-r1" />
+  <project path="device/pacu/pacukernel" name="pacukernel" remote="pacu" revision="android-13.0.0-r1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
