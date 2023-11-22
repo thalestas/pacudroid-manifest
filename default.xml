@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="pacu"
            fetch="https://github.com/thalestas/" />
